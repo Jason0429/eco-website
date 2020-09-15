@@ -1,0 +1,23 @@
+@import './variables.scss';
+
+.header {
+	height: 50vh;
+	width: 100%;
+	// border: thin solid black;
+	background: url('../img/ocean3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	mask-image: linear-gradient(to bottom, #000, transparent);
+
+	.header-title {
+		font-weight: 800;
+		text-align: center;
+		font-size: 3em;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+}
